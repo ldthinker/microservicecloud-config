@@ -1,15 +1,15 @@
 ﻿spring:
   profiles:
     active:
-      - dev
+    - dev
 ---
 spring:
   profiles: dev  
-    application:
-       name: microsevicecloud-config-liu-dev
+  application:
+    name: microsevicecloud-config-liu-dev
 ---
 spring:
   profiles: test
-   application:
-       name: microsevicecloud-config-liu-test
+  application:
+    name: microsevicecloud-config-liu-test
 
