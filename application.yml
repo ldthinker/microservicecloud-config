@@ -1,16 +1,15 @@
 ﻿spring:
-   profiles:
-     active:
-       - dev
+  profiles:
+    active:
+      - dev
 ---
 spring:
-   profiles: dev  #dev
-   application:
-     name: microsevicecloud-config-liu-dev
+  profiles: dev  
+    application:
+       name: microsevicecloud-config-liu-dev
 ---
 spring:
-   profiles: test #test
+  profiles: test
    application:
-     name: microsevicecloud-config-liu-test
+       name: microsevicecloud-config-liu-test
 
-#must save as utf-8
