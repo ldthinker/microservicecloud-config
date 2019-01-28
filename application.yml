@@ -4,12 +4,13 @@
 	  - dev
 ---
 spring:
-	profiles: dev  #开发环境
+	profiles: dev  #dev
 	application:
 	  name: microsevicecloud-config-liu-dev
 ---
 spring:
-	profiles: test #测试环境
+	profiles: test #test
 	application:
 		name: microsevicecloud-config-liu-test
-#请保存为utf-8
+
+#must save as utf-8
