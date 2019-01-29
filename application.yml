@@ -3,13 +3,12 @@
     active:
      - dev
 ---
-spring:
-  profiles: dev  
+spring:    
   application:
     name: microsevicecloud-config-liu-dev
+  profiles: dev
 ---
 spring:
-  profiles: test
   application:
     name: microsevicecloud-config-liu-test
-
+  profiles: test
